@@ -39,7 +39,7 @@ Infineon’s Shield2Go boards are equipped with one featured Infineon IC and pro
 Please download and install the Arduino IDE from [here](https://www.arduino.cc/).
 
 ### XMC 2Go XMC1100 and XMC1100 for Arduino
-To add support for the XMC microcontroller series to your Arduino IDE please follow [this](https://github.com/Infineon/XMC-for-Arduino) guide.
+To add support for the XMC microcontroller series to your Arduino IDE please follow [this](https://github.com/Infineon/XMC-for-Arduino) guide. If you have already installed the XMC package in your Arduino IDE, consider **updating** it via the **Board manager**.
 
 ### ESP32 WEMOS D1 MINI
 Paste the following URL into the 'Additional Boards Manager URLs' input field under File > Preferences to add the ESP32 boards to the Arduino IDE.
