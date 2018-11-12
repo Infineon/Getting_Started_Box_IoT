@@ -9,12 +9,12 @@ All you need to know about your new Infineon XENSIV™ - Getting Started Box IoT
 * [XMC Microcontrollers](#XMC)
 * [ESP32](#ESP32)
 
-* [TLV493D-A1B6 – 3D Magnetic Hall Sensor](TLV493D)
-* [DPS310 – Barometric Pressure Sensor](DPS310)
-* [TLI4970-D050T4 – Current Sensor](TLI4970)
-* [IM69D130 – Digital MEMS Silicon Microphone](IM69D)
-* [OPTIGA™ Trust E – Hardware Security Chip](TrustE)
-* [Dual-Adapter equipped with OPTIGA™ Trust X](DualAdapter)
+* [TLV493D-A1B6 – 3D Magnetic Hall Sensor](#TLV493D)
+* [DPS310 – Barometric Pressure Sensor](#DPS310)
+* [TLI4970-D050T4 – Current Sensor](#TLI4970)
+* [IM69D130 – Digital MEMS Silicon Microphone](#IM69D)
+* [OPTIGA™ Trust E – Hardware Security Chip](#TrustE)
+* [Dual-Adapter equipped with OPTIGA™ Trust X](#DualAdapter)
 
 ## A box consists of:
 
