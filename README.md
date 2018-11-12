@@ -122,6 +122,8 @@ Please refer to the official [DPS310 Pressure Shield2Go repository](https://gith
 Download the latest release as ZIP archive from [here](https://github.com/Infineon/TLI4970-D050T4-Current-Sensor/releases).
 In your Arduino IDE navigate to **Sketch** > **Include Library** > **Add .ZIP Library...** and choose the downloaded ZIP archive.
 
+<span style="color:red">**Important note:**</span>. Please install the One Wire library from PaulStoffregen before you install or use the library for the TLI4970-D050T4 Current Sensor. You can find the One Wire library in the **Library Manager** in the Arduino IDE **Sketch > Include Library > Manage Libraries**.
+
 #### Examples
 
 For example sketches navigate to **File** > **Examples**, scroll down to **"Examples from Custom Libraries"** and choose one of the examples in **TLI4970**.
