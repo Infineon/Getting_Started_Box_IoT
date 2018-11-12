@@ -70,6 +70,10 @@ For a quick start with the Sense2Go Shields you need to install the library for 
 Download the latest release as ZIP archive from [here](https://github.com/Infineon/TLV493D-A1B6-3DMagnetic-Sensor/releases).
 In your Arduino IDE navigate to **Sketch** > **Include Library** > **Add .ZIP Library...** and choose the downloaded ZIP archive.
 
+#### Examples
+
+For example sketches navigate to **File** > **Examples**, scroll down to **"Examples from Custom Libraries"** and choose one of the examples in **TLV493D-A1B6**.
+
 #### Full documentation
 
 Please refer to the official [TLV493D-A1B6 3D Sense Shield2Go repository](https://github.com/Infineon/TLV493D-A1B6-3DMagnetic-Sensor) for a full documentation.
@@ -87,6 +91,10 @@ In your Arduino IDE navigate to **Sketch** > **Include Library** > **Manage Libr
 Download the latest release as ZIP archive from [here](https://github.com/Infineon/DPS310-Pressure-Sensor/releases).
 In your Arduino IDE navigate to **Sketch** > **Include Library** > **Add .ZIP Library...** and choose the downloaded ZIP archive.
 
+#### Examples
+
+For example sketches navigate to **File** > **Examples**, scroll down to **"Examples from Custom Libraries"** and choose one of the examples in **DPS310**.
+
 #### Full documentation
 
 Please refer to the official [DPS310 Pressure Shield2Go repository](https://github.com/Infineon/DPS310-Pressure-Sensor) for a full documentation.
@@ -99,6 +107,10 @@ Please refer to the official [DPS310 Pressure Shield2Go repository](https://gith
 
 Download the latest release as ZIP archive from [here](https://github.com/Infineon/TLI4970-D050T4-Current-Sensor/releases).
 In your Arduino IDE navigate to **Sketch** > **Include Library** > **Add .ZIP Library...** and choose the downloaded ZIP archive.
+
+#### Examples
+
+For example sketches navigate to **File** > **Examples**, scroll down to **"Examples from Custom Libraries"** and choose one of the examples in **TLI4970**.
 
 #### Full documentation
 
@@ -113,6 +125,10 @@ Please refer to the official [TLI4970 Current Sense Shield2Go repository](https:
 Download the latest release as ZIP archive from [here](https://github.com/Infineon/OPTIGA-Trust-E-Security-Controller/releases).
 In your Arduino IDE navigate to **Sketch** > **Include Library** > **Add .ZIP Library...** and choose the downloaded ZIP archive.
 
+#### Examples
+
+For example sketches navigate to **File** > **Examples**, scroll down to **"Examples from Custom Libraries"** and choose one of the examples in **OPTIGATrustE**.
+
 #### Full documentation
 
 Please refer to the official [Optiga™ Trust E Shield2Go repository](https://github.com/Infineon/OPTIGA-Trust-E-Security-Controller) for a full documentation.
@@ -122,3 +138,27 @@ Please refer to the official [Optiga™ Trust E Shield2Go repository](https://gi
 <img src="https://github.com/Infineon/Assets/blob/master/Pictures/IM69D130_Microphone_Shield2Go_Transformed_Resized.jpg" width=350>
 
 Please refer to the official [IM69D MEMS Microphone Shield2Go repository](https://github.com/Infineon/IM69D130-Microphone-Shield2Go) for a full documentation.
+
+## Dual-Adapter Trust-X
+The Dual-Adapter Trust-X is a adapter for combining Infineon Shield2Go boards with Wemos formfactor microcontroller boards. The adapter is equipped with an OPTIGA™ Trust X chip.
+
+### OPTIGA™ Trust X
+
+<img src="https://github.com/Infineon/Assets/raw/master/Pictures/OPTIGA-Trust-X.png">
+
+#### Automatic library installation via the Library Manager
+
+In your Arduino IDE navigate to **Sketch** > **Include Library** > **Manage Libraries...** and search for **OptigaTrustX**. Install the library.
+
+#### Manual library installation
+
+Download the latest release as ZIP archive from [here](https://github.com/Infineon/arduino-optiga-trust-x/releases).
+In your Arduino IDE navigate to **Sketch** > **Include Library** > **Add .ZIP Library...** and choose the downloaded ZIP archive.
+
+#### Examples
+
+For example sketches navigate to **File** > **Examples**, scroll down to **"Examples from Custom Libraries"** and choose one of the examples in **OPTIGATrustX**.
+
+#### Full documentation
+
+Please refer to the official [DPS310 Pressure Shield2Go repository](https://github.com/Infineon/arduino-optiga-trust-x/releases) for a full documentation.
