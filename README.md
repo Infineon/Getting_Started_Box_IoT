@@ -40,7 +40,7 @@ All you need to know about your new Infineon XENSIV™ - Getting Started Box IoT
 * USB-Cable
 * Soldering Connectors
 
-## About the Shield2Go formfactor
+## About the Shields2Go
 Infineon’s Shield2Go boards are equipped with one featured Infineon IC and provide a standardized form factor and pin layout for fast orientation. All boards come with solderless connectors allowing designers to stack the boards instead of soldering them. This makes the Shield2Go boards simple, reusable and flexible. In addition, each Shield2Go comes with a dedicated and ready-to-use, free Arduino library. The Shield2Go boards are compatible with all Arduino solutions with Infineon’s My IoT adapters. This combination of flexible hardware components and accompanying software speeds up the prototyping process. Designers can now focus and select only those components that they intend to design and which their layout requires, thus reducing the cost for a “box” or all-in-one solution of components that are rarely used in its entirety.
 
 # Installation instructions
