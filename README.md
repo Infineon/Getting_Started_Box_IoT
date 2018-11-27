@@ -34,9 +34,7 @@ All you need to know about your new Infineon XENSIV™ - Getting Started Box IoT
 
 ### Accessories
 * Dual-Adapter Trust-X – Adapter for Infineon Shield2Go with Wemos formfactor equipped with OPTIGA™ Trust X
-* Triple-Adapter – Adapter for Infineon Shield2Go with Arduino Uno formfactor (alternatively: Grove Base_Shield_V2)
-* 2x Grove-Adapter – Adapter with Shield2Go formfactor for easy-to-use
-* 2x Grove-Cables
+* Triple-Adapter – Adapter for Infineon Shield2Go with Arduino Uno formfactor
 * USB-Cable
 * Soldering Connectors
 
