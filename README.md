@@ -69,9 +69,9 @@ To install the boards, please navigate to **Tools** > **Board** > **Boards Manag
 In the boards list **Tools** > **Board**, the ESP32 microcontroller boards are added and can be used from now on.
 For the ESP32 WEMOS D1 MINI choose the board **MH ET LIVE ESP32MINIKit**.
 
-## Sense2Go Shields
+## Shield2Go Boards
 
-For a quick start with the Sense2Go Shields you need to install the library for the respective Shield either with the built-in **Library Manager** of the Arduino IDE or directly from **github**.
+For a quick start with the Shield2Go boards you need to install the library for the respective Shield either with the built-in **Library Manager** of the Arduino IDE or directly from **github**.
 
 ### TLV493D-A1B6 3D Magnetic Sensor Shield2Go
 <a name="TLV493D"></a>
