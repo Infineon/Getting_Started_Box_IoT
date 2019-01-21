@@ -20,7 +20,7 @@ All you need to know about your new Infineon XENSIV™ - Getting Started Box IoT.
 
 ### Microcontrollers
 * XMC 1100 Bootkit – 32-bit Microcontroller based on ARM® Cortex®-M in Arduino Uno formfactor
-* 2x XMC2Go – 32-bit Microcontroller based on ARM® Cortex®-M in Shield2Go formfactor
+* 2x XMC 2Go – 32-bit Microcontroller based on ARM® Cortex®-M in Shield2Go formfactor
 * ESP32 – Wemos Formfactor including BLE and WIFI functionality
 
 ### Sensors in Shield2Go formfactor
@@ -38,7 +38,7 @@ All you need to know about your new Infineon XENSIV™ - Getting Started Box IoT.
 * USB-Cable
 * Soldering Connectors
 
-## About the Shields2Go
+## About the Shield2Go concept
 Infineon’s Shield2Go boards are equipped with one featured Infineon IC and provide a standardized form factor and pin layout for fast orientation. All boards come with solderless connectors allowing designers to stack the boards instead of soldering them. This makes the Shield2Go boards simple, reusable and flexible. In addition, each Shield2Go comes with a dedicated and ready-to-use, free Arduino library. The Shield2Go boards are compatible with all Arduino solutions with Infineon’s My IoT adapters. This combination of flexible hardware components and accompanying software speeds up the prototyping process. Designers can now focus and select only those components that they intend to design and which their layout requires, thus reducing the cost for a “box” or all-in-one solution of components that are rarely used in its entirety.
 
 # Installation instructions
@@ -81,7 +81,7 @@ For a quick start with the Shield2Go boards and the XMC 2Go you need to install 
 * Make sure that you installed the Arduino IDE and Segger J-Link with XMC support as described [here](https://github.com/Infineon/XMC-for-Arduino)
 
 #### 1. Build the hardware
-Stack the Shield2Go on an XMC 2Go like shown in the picture below.
+Stack the Shield2Go on a XMC 2Go like shown in the picture below.
 
 <img src="https://github.com/Infineon/Assets/blob/master/Pictures/TLV493D-A1B6_S2Go_w_XMC2Go.png" width=250>
 
@@ -89,25 +89,31 @@ For easy evaluation you can also stack our magnetic knob or joystick on the 3D M
 
 <img src="https://www.infineon.com/export/sites/default/media/products/Sensors/joystick.jpg_708092179.jpg" width=250>
 
-If you do so, we recommend to leave the upper pins of the Shield2Go free (they are not connected anyways) for a tight fit of the Knob/Joystick.
+If you do so, we recommend to leave the upper pins of the 3D Magnetic Shield2Go free (they are not connected anyways) for a tight fit of the Knob/Joystick.
 
 <img src="https://github.com/Infineon/Assets/blob/master/Pictures/3DSenseShield2Go Forbidden Pins with Joystick.png" width=250>
 
 #### 2. Install the Library to your Arduino IDE
 
-* Download the latest release as ZIP archive from [here](https://github.com/Infineon/TLV493D-A1B6-3DMagnetic-Sensor/releases)
-* Open the Arduino IDE
-* In your Arduino IDE navigate to **Sketch** > **Include Library** > **Add .ZIP Library...** and choose the downloaded ZIP archive.
+* Download the latest release as ZIP archive from [here](https://github.com/Infineon/TLV493D-A1B6-3DMagnetic-Sensor/releases).
+* Open the Arduino IDE on your computer.
+* In the Arduino IDE navigate to **Sketch** > **Include Library** > **Add .ZIP Library...** and choose the downloaded ZIP archive.
 
 #### 3. Flash an example
 
-* Make sure that your microcontroller is connected to the Arduino IDE
+* Navigate to **Tools > Board**, scroll down to **XMC Family** and select the **XMC1100 XMC2Go** board.
 * Connect your microcontroller via USB to the computer running the Arduino IDE
-For example sketches navigate to **File** > **Examples**, scroll down to **"Examples from Custom Libraries"** and choose one of the examples in **TLV493D-A1B6**.
+* Choose the right serial port from **Tools > Port**. If you have multiple serial ports and are not sure which one is right, just disconnect the XMC 2Go board and see which port disappears.
+* Open an example sketch: Navigate to **File** > **Examples**, scroll down to **"Examples from Custom Libraries"** and open one of the examples (e.g. *"Cartesian"*) in **TLV493D-A1B6**.
+* Flash the example sketch to the XMC 2Go using the **Upload** button of the Arduino IDE.
+
+<img src="https://github.com/Infineon/Assets/blob/master/Pictures/Upload Arduino IDE.png" width=100>
+
+* Open the Serial Monitor (**Tools > Serial Monitor**) to read out your first measurements.
 
 #### Full documentation
 
-Please refer to the official [TLV493D-A1B6 3D Sense Shield2Go repository](https://github.com/Infineon/TLV493D-A1B6-3DMagnetic-Sensor) for a full documentation.
+Please refer to the official [TLV493D-A1B6 3D Sense Shield2Go repository](https://github.com/Infineon/TLV493D-A1B6-3DMagnetic-Sensor) for a full documentation about the 3D Magnetic Sensor Shield2Go.
 
 ### DPS310 Pressure Sensor Shield2Go
 <a name="DPS310"></a>
