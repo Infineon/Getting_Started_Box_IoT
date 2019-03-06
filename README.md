@@ -1,6 +1,5 @@
 # Infineon XENSIV™ - Getting Started Box IoT
-
-![Infineon XENSIV™ - Getting Started Box IoT](https://raw.githubusercontent.com/infineon/assets/master/Pictures/getting_started_box_iot.jpg)
+<img src="https://raw.githubusercontent.com/infineon/assets/master/Pictures/getting_started_box_iot.jpg" width=600>
 
 All you need to know about your new Infineon XENSIV™ - Getting Started Box IoT.
 
