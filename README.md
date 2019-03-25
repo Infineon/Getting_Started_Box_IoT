@@ -181,4 +181,4 @@ For example sketches navigate to **File** > **Examples**, scroll down to **"Exam
 
 #### Full documentation
 
-Please refer to the official [OPTIGA Trust X repository](https://github.com/Infineon/arduino-optiga-trust-x) for a full documentation.
+Please refer to the official [OPTIGA™ Trust X repository](https://github.com/Infineon/arduino-optiga-trust-x) for a full documentation.
