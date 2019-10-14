@@ -15,7 +15,7 @@ All you need to know about your new Infineon XENSIV™ - Getting Started Box IoT
 * [OPTIGA™ Trust E – Hardware Security Chip](#TrustE)
 * [Dual-Adapter equipped with OPTIGA™ Trust X](#DualAdapter)
 
-* [Usage Example](#Examples)
+* [Usage Example](#UsageExamples)
 
 ## A box consists of:
 
@@ -55,7 +55,7 @@ To add support for the XMC microcontroller series to your Arduino IDE please fol
 
 ### ESP32 WEMOS D1 MINI
 <a name="ESP32"></a>
-Paste the following URL into the 'Additional Boards Manager URLs' input field under File > Preferences to add the ESP32 boards to the Arduino IDE.
+Paste the following URL into the 'Additional Boards Manager URLs' input field under **File** > **Preferences** to add the ESP32 boards to the Arduino IDE.
 
 ```
 https://dl.espressif.com/dl/package_esp32_index.json
@@ -186,7 +186,7 @@ For example sketches navigate to **File** > **Examples**, scroll down to **"Exam
 Please refer to the official [OPTIGA™ Trust X repository](https://github.com/Infineon/arduino-optiga-trust-x) for a full documentation.
 
 # Examples
-<a name="Examples"></a>
+<a name="UsageExamples"></a>
 
 ## Joystick and Pressure Sensor on the ESP32 Wemos D1 Mini
 
@@ -201,10 +201,11 @@ Now connect all devices together:
 1. Mount the 3D-printed Joystick Adapter onto the TLV493D-A1B6 Shield2Go and tighten the screw.
 2. Plug the TLV493D Shield2Go with connected Joystick-Adapter into Socket 1 of the Dual Adapter.
 3. Connect DPS310 Shield2Go to Socket 2 of the Dual Adapter.
-4. Connect the Dual Adapter to the ESP32 Wemos D1 Mini.
+4. Connect the Dual Adapter to the ESP32 Wemos D1 Mini. Make sure it's connected the right way (check with the picture below).
 5. Use a micro USB-cable to connect the ESP32 Wemos D1 Mini to the PC.
 
 Afterwards it should look like this:
+
 <img src="https://github.com/Infineon/Assets/raw/master/Pictures/IoTBox-Joystick_Pressure-ConnectedHardware.jpg" height=300>
 
 
@@ -213,15 +214,17 @@ Afterwards it should look like this:
 After you downloaded this Repository by clicking at this site onto  **Clone or download** > **Download ZIP** you can extract the ZIP-file and then navigate to "*examples/Joystick_Pressure/*".
 Open the *Joystick.ino* with the Arduino IDE and follow these steps to upload the sketch:
 1.  Click on **Tools** > **Board** and select the Board  **MH ET LIVE ESP32MINIKit** there. (If you do not find the Board, make sure you've installed the ESP32-Boards as described [here](#ESP32))
-2. Select the right COM-port via **Tools** > **Port**. If you are not sure which COM-port your ESP32 Wemos D1 Mini is connected to, simply unplug it and check which COM-Port number disappeared in the list (you have to reopen the list in order to refresh it).
+2. Select the right COM-port via **Tools** > **Port**. Mostly it's the port with the highest number. If you are not sure which COM-port your ESP32 Wemos D1 Mini is connected to, simply unplug it and check which COM-Port number disappeared in the list (you have to reopen the list in order to refresh it).
 3. Upload the Sketch via **Sketch** > **Upload**.
 
 ### Result
 
 After uploading the sketch, the ESP32 Wemos D1 Mini sets up a WiFi - access point with the SSID "myIoT" and the password "ifxIoT2019":
+
 <img src="https://github.com/Infineon/Assets/raw/master/Pictures/IoTBox-Joystick_Pressure-ConnectToWifi.png">
 
 A webserver is started by the ESP32 on its local IP. The website can be seen when a device is connected to the access point and calls http://192.168.4.1 in the browser.
+
 <img src="https://github.com/Infineon/Assets/raw/master/Pictures/IoTBox-Joystick_Pressure-ESP32_Standard_IP.png">
 <img src="https://github.com/Infineon/Assets/raw/master/Pictures/iOTBox-Joystick_Pressure-Website.png" width=500>
 
