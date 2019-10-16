@@ -211,7 +211,7 @@ Afterwards it should look like this:
 
 ### Software
 
-To get the software for this example, download this repository from GitHub by clicking on the following field in the latest [release](https://github.com/Infineon/Getting_Started_Box_IoT/releases) of this repository::
+To get the software for this example, download this repository from GitHub by clicking on the following field in the latest [release](https://github.com/Infineon/Getting_Started_Box_IoT/releases) of this repository:
 
 <img src="https://raw.githubusercontent.com/infineon/assets/master/Pictures/Releases_Generic.jpg">
 
