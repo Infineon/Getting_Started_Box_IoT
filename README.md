@@ -211,7 +211,11 @@ Afterwards it should look like this:
 
 ### Software
 
-After you downloaded this Repository by clicking at this site onto  **Clone or download** > **Download ZIP** you can extract the ZIP-file and then navigate to "*examples/Joystick_Pressure/*".
+To get the software for this example, download this repository from GitHub by clicking on the following field in the latest [release](https://github.com/Infineon/Getting_Started_Box_IoT/releases) of this repository::
+
+<img src="https://raw.githubusercontent.com/infineon/assets/master/Pictures/Releases_Generic.jpg">
+
+After downloading you can extract the ZIP-file and then navigate to "*examples/Joystick_Pressure/*".
 Open the *Joystick.ino* with the Arduino IDE and follow these steps to upload the sketch:
 1.  Click on **Tools** > **Board** and select the Board  **MH ET LIVE ESP32MINIKit** there. (If you do not find the Board, make sure you've installed the ESP32-Boards as described [here](#ESP32))
 2. Select the right COM-port via **Tools** > **Port**. Mostly it's the port with the highest number. If you are not sure which COM-port your ESP32 Wemos D1 Mini is connected to, simply unplug it and check which COM-Port number disappeared in the list (you have to reopen the list in order to refresh it).
